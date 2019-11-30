@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<link rel="stylesheet" href="formulario.css"></link>
+<link rel="stylesheet" href="tipografia.css"></link>
+<title>Cardápio</title>
+</head>
+
+<body>
+
+<h1>Cardápio Online</h1>
+
+<form onSubmit="calculaItem()">
+	<fieldset class="secao-form">
+		<legend>Cardápio Lanchonete</legend>
+		<label for="codigo">Código</label>
+		<input id="codigo" name="codigo" type="text"  
+			   placeholder="Informe o codigo do item" autofocus
+			   required autocomplete="off"></input>
+			   
+	
+		<label for="quantidade">Quantidade</label>
+		<input id="qtd" name="qtd" type="text" placeholder="Informe a quantidade"></input><br></br>
+		<button type="submit" class="btn btn-principal">Calcular</button>
+		<button type="reset" class="btn btn-secundario">Limpar</button>
+	
+	</fieldset>
+</form>
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<link rel="stylesheet" href="formulario.css"></link>
+<link rel="stylesheet" href="tipografia.css"></link>
+<title>Lanchonete do IFMA</title>
+</head>
+
+<body>
+
+<h1>Formulário</h1>
+
+<form onSubmit="chamar()">
+	<fieldset class="secao-form">
+		<legend id="legenda">Lanchonete do IFMA</legend>
+		<label for="nome">Nome do Cliente</label>
+		<input id="nome" name="nome" type="text"  
+			   placeholder="Informe o nome do cliente" autofocus
+			   required autocomplete="off"></input>
+		<br></br>
+		<label for="bs">Bebidas:</label>
+		<input name="bs" type="radio" value="Suco" checked>Suco</input>
+		<input name="bs" type="radio" value="Refrigerante">Refrigerante</input>
+		<input name="bs" type="radio" value="Água">Água</input>
+		<br></br>
+		<label for="ds">Doces e Salgados:</label>
+		<input name="ds" class="ds" type="checkbox" value="Bolo">Bolo</input>
+		<input name="ds" class="ds" type="checkbox" value="Pastel">Pastel</input>
+		<input name="ds" class="ds" type="checkbox" value="Torta">Torta</input>
+		<br></br>
+		<button type="submit" id="btnSubmit" class="btn btn-principal">Calcular</button>
+		<button type="reset" class="btn btn-secundario">Limpar</button>
+	</fieldset>
+</form>
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+﻿h1{
+	text-align:center;
+}
+body{
+	width:500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.secao-form {
+    background-color: #EEE5EE;
+    border: none;
+    padding: .6rem;
+}
+
+.secao-form > legend {
+    background-color: #C8A2C8;
+    font-size: 1.2rem;
+    padding: 0.2rem;
+
+}
+
+.secao-form:first-child {
+    margin-bottom: 2rem;
+}
+
+label[for] {
+    display: block;
+}
+
+input[type=text] {
+    width: 95%;
+    font-family: inherit;
+    font-size: 1rem;
+    padding: .3em;
+}
+
+.btn {
+    padding: .4rem;
+    font-family: inherit;
+    border-radius: .2rem;
+    margin: 0 auto;
+    display: block;
+    margin-left: 3px;
+}
+
+.btn-principal {
+   background-color: #E5EEE5;
+   font-weight: 600;
+   display: block;
+   float: left;
+   margin-left: 8rem; 
+}

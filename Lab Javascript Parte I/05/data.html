@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<link rel="stylesheet" href="formulario.css"></link>
+<link rel="stylesheet" href="tipografia.css"></link>
+<title>Formatar Data</title>
+</head>
+
+<body>
+
+<h1>Formatar Data</h1>
+
+<form onSubmit="formatar()">
+	<fieldset class="secao-form">
+		<legend id="dt">Formatar Data</legend>
+		<label for="data">Data</label>
+		<input id="data" name="data" type="date"  
+			   placeholder="Informe a data" autofocus
+			   required autocomplete="off"></input>
+		<br></br>
+		<button type="submit" id="btnSubmit" class="btn btn-principal">Formatar</button>
+		<button type="reset" class="btn btn-secundario">Limpar</button>
+	
+	</fieldset>
+</form>
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
