@@ -1,0 +1,50 @@
+body{
+    font-family: 'Itim', cursive;
+    width: 900px;
+    margin: auto;
+}
+
+header{
+    border-bottom: 2px solid black;
+}
+
+h1{
+    position: relative;
+    text-align: center;
+}
+
+nav li{
+    list-style: none;
+    display: inline-block;
+}
+
+title {
+    text-align: center;
+    text-shadow: 1px 1px 3px #140905;
+    font-size: 3em;
+}
+
+section{
+    background-color: #cecece;
+    padding: 4px;
+    margin: 35px;
+}
+
+#Aventura{
+    width: 100px;
+    background-color: yellow;
+    text-align: center;
+    padding: 15px;
+}
+
+#Drama{
+    width: 100px;
+    background-color: orange;
+    text-align: center;
+    padding: 15px;
+}
+ 
+  /* cor do link */
+  a {
+    color: green;
+  }

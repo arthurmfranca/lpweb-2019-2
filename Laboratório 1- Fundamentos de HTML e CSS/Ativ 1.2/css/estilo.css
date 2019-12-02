@@ -1,0 +1,70 @@
+body{
+    font-family: 'Itim', cursive;
+    width: 990px;
+	margin: auto;
+}
+
+header {
+	font-size: 18pt;
+	border-bottom: 2px dotted black;
+	margin-bottom: 10px;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+  }
+
+.container {
+	width: 990px;
+	margin: auto;
+}
+
+.secao-1 {
+	width: 75%;
+	float: left;
+	padding-right: 10px;
+	position: relative
+}
+#tabela {
+	background-color: #cecece;
+	width: 200px;
+	text-align: center;
+	padding: 10px;
+	float: right;
+	margin-left: 15x;
+	margin-bottom: 5px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+	font-family: "Itim", cursive;
+	font-size: 11pt;
+  }
+
+img {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 5px;
+	width: 150px;
+	margin-bottom: 5px;
+  }
+
+#imagem figcaption{
+	text-align: center;
+	margin: 10px;
+  }
+
+p {
+	text-align: justify;
+	font-size: 13pt;
+  }
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+  }
+
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: -1200px;
+  width: 100%;
+  background-color: #b9b8b8;
+  text-align: center;
+}
